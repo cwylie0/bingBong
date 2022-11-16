@@ -8,8 +8,11 @@ url = "http://www.bing.com/search?q="
 imageUrl = "http://www.bing.com/images/search?q="
 exclude = set(string.punctuation)
 
-nb = input('Enter filename: ')
+'''nb = 'input('Enter filename: ')
 counter = input('Enter points needed: ')
+'''
+nb = 'keywords.txt'
+counter = 180
 counting = (int(counter)  / 10) * 2
 file = open(nb, 'r')
 
@@ -28,7 +31,7 @@ while i <= counting:
         for c in string.punctuation:
             queryTerm=queryTerm.replace(c,"")
         print ("Word #%d: %s" % (i, queryTerm))
-        webbrowser.open_new_tab(imageUrl+queryTerm)
+        webbrowser.open_new_tab(url+queryTerm)
         time.sleep(1)
         i += 1
 
