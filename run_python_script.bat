@@ -1,2 +1,2 @@
-"C:\Python3\python.exe" "C:\Users\User\onedrive\code\cwm\bingBong\bingBong.py"
+"C:\Users\Rachida\AppData\Local\Programs\Python\Python310\python.exe" "C:\Users\Rachida\OneDrive\Code\CWM\bingBong\bingBong.py"
 pause
